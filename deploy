@@ -1,5 +1,5 @@
 #!/bin/sh      
-ssh -T prod@138.197.178.42 <<EOF        
+ssh -T prod@ubuntu-PD <<EOF        
  cd /var/lib/jenkins/workspace/Node-webapp/  
  git pull       
  npm install --production       
